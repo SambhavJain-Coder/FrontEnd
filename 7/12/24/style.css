@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center; 
+}
+
+button {
+    background-color: lightseagreen;
+    border-radius: 6px;
+    border: none;
+    padding: 25px 40px;
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 600;
+    z-index: 1;
+    color: yellow;
+}
+
+button:active{
+    scale: 0.95;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(164, 228, 249);
+}
+#card {
+    height: 350px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+
+}
+#card h2{
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(68, 103, 68);
+    padding: 10px 20px;
+}
+.allstatus{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+
+}
+.status{
+    padding: 5px;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+.status img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2.3px solid white;
+    
+    
+}
+
+h5{
+    color: white;
+    
+}
+h6{
+    color: white;
+}
+.allstatus ::-webkit-scrollbar{
+    background-color: white;
+}

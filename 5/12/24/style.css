@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#parent{
+    height: 300px;
+    width: 300px;
+    background-color: olive;
+    border: none;
+    border-radius: 3px;
+}
+#h1 {
+    font-size: 30px;
+    font-weight: 600;
+    color: red;
+}
